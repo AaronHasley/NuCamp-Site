@@ -57,5 +57,10 @@ a, a:hover {
     border: 1px solid black;
 }
     
-
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
     
