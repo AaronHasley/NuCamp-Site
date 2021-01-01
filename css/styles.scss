@@ -3,6 +3,7 @@ $color-secondary: #5637dd;
 $color-pale: #CEC8FF;
 $color-mid: #901CAD;
 $color-dark: #60106b;
+$color-white: white;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
 
 $body-font: "Open Sans", sans-serif;
@@ -16,18 +17,18 @@ h1, h2, h3 {
     font-family: $header-font;
 }
 
-h2{
+h2 {
     color: $color-primary;
 }
 
 header {
     h2 {
-        color: $color-pale;
+    color: $color-pale;
     }
 }
 
 .site-footer {
-    background-image: linear-gradient($color-pale, white);
+    background-image: linear-gradient($color-pale, $color-white);
     padding: 20px 0;
 }
 
@@ -35,7 +36,7 @@ header {
     margin: 0;
     padding: 30px;
     background-image: linear-gradient(to right, $color-secondary,
-    color-primary, $color-dark);
+    $color-primary, $color-dark);
     color: white;
 }
 
@@ -75,4 +76,3 @@ a, a:hover {
     bottom: 0;
     z-index: 100;
 }
-    
